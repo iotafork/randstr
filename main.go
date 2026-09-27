@@ -80,7 +80,7 @@ func main() {
 		}
 
 		if *dirFlag == "" || !existingFiles[randStr] {
-			fmt.Println(randStr)
+			fmt.Print(randStr)
 			break
 		}
 	}
